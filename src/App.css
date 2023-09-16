@@ -1,0 +1,273 @@
+/* navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.dasboard {
+  display: flex;
+  align-items: center;
+}
+
+.dasImg {
+  height: 50px;
+  width: 50px;
+}
+
+.dasImg img {
+  width: 100%;
+}
+
+.navInput {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputSerch input {
+  background-color: black;
+  height: 40px;
+  width: 280px;
+  border: none;
+  border-radius: 1rem;
+  color: aliceblue;
+  font-size: 1.4rem;
+  padding: 10px 10px;
+}
+
+.inputSerch input:hover {
+  border: 1.3px solid black;
+  background-color: transparent;
+  color: rgb(0, 56, 141);
+}
+
+.imgSerch {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.imgSerch img {
+  width: 100%;
+
+}
+
+.imgSerch img:hover {
+  scale: 1.2;
+}
+
+.UploadPart {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.ProFilePart {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.ProFilePart img {
+  width: 100%;
+}
+
+.uploadButton button {
+  height: 36px;
+  width: 130px;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  color: whitesmoke;
+  background-color: black;
+  cursor: pointer;
+}
+
+.uploadButton button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+
+/* navbar end */
+
+/* sidebar */
+.Side {
+  height: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgb(220, 238, 253);
+}
+
+.Setting {
+  background-color: rgb(220, 238, 253);
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.Home {
+  width: 90px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Home:hover {
+  background-color: rgba(141, 141, 141, 0.259);
+  width: 90px;
+}
+
+.Home p {
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.ImgSidebar {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.ImgSidebar img {
+  width: 100%;
+}
+
+
+
+.WrapComp {
+  display: flex;
+  height: 100%;
+}
+
+.VideoList{
+  background-color: #343434;
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+}
+
+.headVideo p{
+  text-align: center;
+  font-size: 1.3rem;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.VideoItems {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+
+  overflow-y: auto;
+}
+
+.VideoItems::-webkit-scrollbar {
+  width: 3px;
+  height: 0px;
+}
+
+.VideoItems::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+/* UploadPage */
+.UploadPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #343434;
+  color: whitesmoke;
+  height: 540px;
+  width: 100%;
+}
+
+.UploadPage h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.UploadPage button {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 2.3rem;
+  font-weight: 700;
+  width: 400px;
+  height: 100px;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.UploadPage button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(0, 195, 255);
+  color: rgb(0, 119, 255);
+}
+
+/* video Player */
+
+
+.videosPlayer{
+background-color: whitesmoke;
+color: black;
+border-radius: 1rem; 
+
+}
+
+.videosPlayer:hover{
+  box-shadow: rgba(76, 160, 255, 0.597) 0px 0px 0px 3px;
+ scale: 1.02;
+  }
+  
+
+
+.VideoListfavopage {
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+  background-color: 023020;
+}
+
+
+.VideoListTreanding {
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+  background-color: #001e31;
+}
