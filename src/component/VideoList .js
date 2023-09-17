@@ -65,6 +65,7 @@ useEffect(()=>{
                 key={video.id}
                 videoId={video.videoId}
                 title={video.title}
+                // url = {video.ipfsHash}
                 onClick={() => handleVideoSelect(video)} 
               />
               {/* <div>

@@ -4,6 +4,8 @@ import das from "../img/dasboard.png"
 import serch from "../img/search (1).png"
 import profile from "../img/profileimg.png"
 import { Link } from 'react-router-dom'
+import Wallet from './Wallet'
+
 
 export default function Navbar() {
     return (
@@ -30,6 +32,7 @@ export default function Navbar() {
                         <img src={serch} alt="" />
                     </div>
                 </div>
+                <Wallet />
 
                 <div className="UploadPart">
                     <div className="uploadButton">
