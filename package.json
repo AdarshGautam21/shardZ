@@ -6,14 +6,25 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "ethers": "^6.7.1",
+    "@thirdweb-dev/react": "^3.14.41",
+    "@thirdweb-dev/sdk": "^3.10.60",
+    "assert": "^2.0.0",
+    "browserify-zlib": "latest",
+    "ethers": "^5.7.2",
+    "http": "npm:http-browserify",
+    "http-browserify": "latest",
+    "https": "npm:https-browserify",
+    "https-browserify": "latest",
     "plyr": "^3.7.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-player": "^2.13.0",
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "stream": "^0.0.2",
+    "url": "latest",
+    "web-vitals": "^2.1.4",
+    "zlib": "npm:browserify-zlib"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,5 +49,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "vite-plugin-node-polyfills": "^0.14.0"
   }
 }
