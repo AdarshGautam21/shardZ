@@ -8,7 +8,7 @@ import { useStorageUpload } from '@thirdweb-dev/react';
 export default function UploadPage() {
   const provider = new ethers.providers.Web3Provider(window.ethereum);
   // const provider = new ethers.BrowserProvider(window.ethereum);
-  const contractAddress = "0x323D7b368896003996BAF7Db30684E6c23CdD352";
+  const contractAddress = "0xf166d99aD24CDF94968C48efd94739E180C2016F";
   const signer = provider.getSigner();
 
   const contract = new ethers.Contract(contractAddress, contractABI, signer);

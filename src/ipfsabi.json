@@ -24,6 +24,23 @@
     "type": "event"
   },
   {
+    "name": "getAllVideos",
+    "outputs": [
+      {
+        "components": [
+          { "internalType": "uint256", "name": "vidNumber", "type": "uint256" },
+          { "internalType": "string", "name": "videoTitle", "type": "string" },
+          { "internalType": "string", "name": "ipfsHash", "type": "string" }
+        ],
+        "internalType": "struct shardzipfs.Video[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "type": "function",
+    "stateMutability": "view"
+  },
+  {
     "name": "getVideo",
     "inputs": [
       { "internalType": "uint256", "name": "_vidNumber", "type": "uint256" }
