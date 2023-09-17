@@ -61,7 +61,6 @@
 
 .imgSerch img {
   width: 100%;
-
 }
 
 .imgSerch img:hover {
@@ -99,7 +98,6 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
-
 
 /* navbar end */
 
@@ -160,21 +158,19 @@
   width: 100%;
 }
 
-
-
 .WrapComp {
   display: flex;
   height: 100%;
 }
 
-.VideoList{
+.VideoList {
   background-color: #343434;
   display: flex;
   flex-direction: column;
   height: 540px;
 }
 
-.headVideo p{
+.headVideo p {
   text-align: center;
   font-size: 1.3rem;
   color: aliceblue;
@@ -200,8 +196,6 @@
 .VideoItems::-webkit-scrollbar-thumb {
   background-color: rgb(255, 255, 255);
 }
-
-
 
 /* UploadPage */
 .UploadPage {
@@ -242,20 +236,76 @@
 
 /* video Player */
 
-
-.videosPlayer{
-background-color: whitesmoke;
-color: black;
-border-radius: 1rem; 
-
+.videosCrd {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
 }
 
-.videosPlayer:hover{
-  box-shadow: rgba(76, 160, 255, 0.597) 0px 0px 0px 3px;
- scale: 1.02;
-  }
-  
+.textTitle {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
 
+.textTitle p {
+  margin: 0;
+  padding-left: 10px;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.textLike {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: whitesmoke;
+}
+
+.textLike h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.textVideoCard h3 {
+  margin: 0;
+  padding-left: 10px;
+  color: white;
+  text-align: start;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.textCard {
+  padding-top: 15px;
+  padding-left: 20px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.ProfileCard {
+  padding-top: 10px;
+  height: 40px;
+  width: 40px;
+}
+.ProfileCard img {
+  width: 100%;
+}
+
+.videosPlayer {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 1rem;
+}
+
+.videosPlayer:hover {
+  box-shadow: rgba(76, 160, 255, 0.597) 0px 0px 0px 3px;
+  scale: 1.02;
+}
 
 .VideoListfavopage {
   display: flex;
@@ -264,10 +314,72 @@ border-radius: 1rem;
   background-color: 023020;
 }
 
-
 .VideoListTreanding {
   display: flex;
   flex-direction: column;
   height: 540px;
   background-color: #001e31;
+}
+
+/* Dashboard page CSS */
+.dash {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  background-color: #343434;
+}
+
+.dash-connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.dash-btn {
+  height: 60px;
+  width: 30%;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 20px;
+  border: transparent;
+  background-color: white;
+}
+
+.dash-thumb {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  gap: 2rem;
+}
+
+.dash-thumbbtn {
+  height: 150px;
+  width: 35%;
+  border: transparent;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.dash-p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+}
+
+.dash-buy {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 2rem;
+}
+
+.dash-blank {
+  width: 30%;
+  background-color: grey;
+  height: 3px;
+  border-radius: 20px;
 }
